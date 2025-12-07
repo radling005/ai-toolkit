@@ -1,113 +1,192 @@
-# AI Playground
+# AI Playground 🎮
 
-A repository for experimenting with AI services and developing AI skills.
-
-## Quick Start
-
-| I want to... | Go to... |
-|--------------|----------|
-| Learn AI fundamentals | [`fundamentals/`](fundamentals/) |
-| Experiment with Claude | [`end-user/claude/`](end-user/claude/) |
-| Experiment with Gemini | [`end-user/gemini/`](end-user/gemini/) |
-| Write code using Claude API | [`api/claude/`](api/claude/) |
-| Write code using Gemini API | [`api/gemini/`](api/gemini/) |
+Your personal lab for mastering AI tools.
 
 ---
 
-## Structure
+## 🚀 Quick Start (5 Minutes)
 
-### `fundamentals/`
+**New to AI tools?** Start here:
 
-**Vendor-agnostic AI skills that transfer across all platforms.**
+1. **Read one cheatsheet** → [`cheatsheets/prompting-patterns.md`](cheatsheets/prompting-patterns.md)
+2. **Try one prompt** → Copy a template from [`library/`](library/)
+3. **Run an experiment** → Pick Claude or Gemini in [`end-user/`](end-user/)
 
-Core topics:
-- **Prompt Engineering** — Zero-shot, few-shot, chain-of-thought, and more
-- **Workflows** — Patterns for integrating AI into your work
-- **Context Management** — Optimizing what you feed the AI
-- **Output Quality** — Getting consistently good results
-- **Use Cases** — Domain-specific patterns (coding, writing, analysis)
-- **Safety & Ethics** — Responsible AI use
-- **Evaluation** — Measuring and comparing AI outputs
-- **Advanced Concepts** — Agentic AI, RAG, multi-modal strategies
-- **Practical Skills** — Day-to-day effectiveness
-
-Start here: [`fundamentals/README.md`](fundamentals/README.md)
+**Already comfortable?** Jump to:
+- [`comparisons/`](comparisons/) — Test Claude vs Gemini head-to-head
+- [`projects/`](projects/) — Real-world mini-projects
+- [`fundamentals/advanced-concepts/`](fundamentals/advanced-concepts/) — Level up your skills
 
 ---
 
-### `end-user/`
+## 📁 What's Inside
 
-**Structured learning labs for UI-based experimentation.**
-
-#### Claude (`end-user/claude/`)
-Experiments with Claude's web interface:
-- Prompt engineering practice
-- Artifacts (React, HTML, SVG, Mermaid)
-- Extended thinking exploration
-- Projects and knowledge management
-
-#### Gemini (`end-user/gemini/`)
-Experiments with Gemini's web interface:
-- Search grounding techniques
-- Code execution and data analysis
-- Gems (custom personas)
-- Multi-modal capabilities
-
-Each includes:
-- Organized folder structure
-- Experiment templates
-- Effective prompts collection
-- Edge cases documentation
+| Folder | What It's For | Start Here |
+|--------|---------------|------------|
+| 📚 [`fundamentals/`](fundamentals/) | Learn AI skills that work everywhere | [README](fundamentals/README.md) |
+| 🔬 [`end-user/claude/`](end-user/claude/) | Experiment with Claude | [README](end-user/claude/README.md) |
+| 🔬 [`end-user/gemini/`](end-user/gemini/) | Experiment with Gemini | [README](end-user/gemini/README.md) |
+| ⚔️ [`comparisons/`](comparisons/) | Head-to-head model testing | [README](comparisons/README.md) |
+| 📖 [`library/`](library/) | Your prompt collection | [README](library/README.md) |
+| 🏗️ [`projects/`](projects/) | Hands-on mini-projects | [README](projects/README.md) |
+| 💥 [`failures/`](failures/) | Learn from mistakes | [README](failures/README.md) |
+| 📋 [`cheatsheets/`](cheatsheets/) | Quick reference guides | [README](cheatsheets/README.md) |
+| 💻 [`api/`](api/) | Code with AI APIs | [Claude](api/claude/) / [Gemini](api/gemini/) |
 
 ---
 
-### `api/`
+## 🎯 Choose Your Adventure
 
-**Programmatic experimentation and SDK usage.**
+### "I want to get better at prompting"
+```
+fundamentals/prompt-engineering/ → Practice in end-user/claude/ → Save wins to library/
+```
 
-#### Claude (`api/claude/`)
-Python scripts using the Anthropic Claude API.
-- Hello world example
-- SDK patterns
+### "I want to know when to use Claude vs Gemini"
+```
+cheatsheets/model-comparison.md → Run tests in comparisons/ → Build your decision guide
+```
 
-#### Gemini (`api/gemini/`)
-Python scripts using the Google Gemini API.
-- Hello world example
-- SDK patterns
+### "I want to build something real"
+```
+projects/README.md → Pick a project → Document your process
+```
 
----
-
-## Learning Path
-
-### Week 1-2: Foundations
-1. Read `fundamentals/prompt-engineering/`
-2. Complete beginner exercises
-3. Start experimenting in `end-user/claude/` or `end-user/gemini/`
-
-### Week 3-4: Building Skills
-4. Study `fundamentals/workflows/` and `fundamentals/output-quality/`
-5. Document your experiments using the templates
-6. Build a personal prompt library
-
-### Week 5-6: Specialization
-7. Deep dive into `fundamentals/use-cases/` for your domain
-8. Compare Claude vs Gemini for different tasks
-9. Explore `fundamentals/advanced-concepts/`
-
-### Ongoing
-- Maintain your prompt library
-- Document new patterns
-- Review `fundamentals/safety-ethics/`
-- Share learnings
+### "I want to go deep on AI skills"
+```
+fundamentals/README.md → Follow the 8-week learning path
+```
 
 ---
 
-## Philosophy
+## 📋 Cheatsheets (Bookmark These)
 
-This playground is built on deliberate practice:
-- **Learn** the fundamentals that transfer across tools
-- **Experiment** systematically, not randomly
-- **Document** what works and what doesn't
-- **Iterate** on your techniques over time
+| Cheatsheet | When You Need It |
+|------------|------------------|
+| [Prompting Patterns](cheatsheets/prompting-patterns.md) | Quick technique reference |
+| [Model Comparison](cheatsheets/model-comparison.md) | Deciding Claude vs Gemini |
+| [Common Fixes](cheatsheets/common-fixes.md) | When AI output isn't right |
+| [Cost Reference](cheatsheets/cost-reference.md) | Optimizing API costs |
 
-The goal isn't just to use AI — it's to understand it deeply.
+---
+
+## 🏃 Your First Week
+
+### Day 1-2: Get Oriented
+- [ ] Skim the [Prompting Patterns cheatsheet](cheatsheets/prompting-patterns.md)
+- [ ] Run one prompt from the [library](library/)
+- [ ] Try the same prompt in both Claude and Gemini
+
+### Day 3-4: Start Experimenting
+- [ ] Read [`fundamentals/prompt-engineering/`](fundamentals/prompt-engineering/)
+- [ ] Complete one experiment in [`end-user/`](end-user/) using the template
+- [ ] Add one prompt to your [`library/`](library/)
+
+### Day 5-7: Build Something
+- [ ] Pick a 🟢 Starter project from [`projects/`](projects/)
+- [ ] Document your process
+- [ ] Record any failures in [`failures/`](failures/)
+
+---
+
+## 💡 How to Use This Playground
+
+### The Learning Loop
+```
+Learn → Experiment → Document → Repeat
+  ↓         ↓           ↓
+fundamentals  end-user/    library/
+              comparisons/ failures/
+```
+
+### Golden Rules
+1. **Document everything** — Future you will thank present you
+2. **Save what works** — Your prompt library compounds over time
+3. **Record failures** — They teach more than successes
+4. **Test, don't assume** — Run comparisons before deciding
+
+### Pro Tips
+- Use templates — They're in every section for a reason
+- Start small — One technique, one project at a time
+- Be specific — Vague prompts get vague results
+- Iterate — First output is rarely final
+
+---
+
+## 📊 Skill Progression
+
+| Level | Focus | Sections |
+|-------|-------|----------|
+| 🌱 **Beginner** | Core techniques, basic workflows | `fundamentals/prompt-engineering/`, `cheatsheets/` |
+| 🌿 **Intermediate** | Systematic practice, prompt library | `library/`, `comparisons/`, `projects/` 🟢🟡 |
+| 🌳 **Advanced** | Multi-model strategy, complex workflows | `fundamentals/advanced-concepts/`, `projects/` 🔴 |
+
+---
+
+## 🤝 Contributing to Your Playground
+
+This is YOUR playground. Make it yours:
+
+- **Add prompts** that work for your domain
+- **Create projects** relevant to your work
+- **Document failures** you encounter
+- **Build cheatsheets** for your workflows
+- **Run comparisons** for your use cases
+
+---
+
+## 📚 Deep Dives
+
+### Fundamentals (Vendor-Agnostic)
+| Topic | What You'll Learn |
+|-------|-------------------|
+| [Prompt Engineering](fundamentals/prompt-engineering/) | Zero-shot, few-shot, chain-of-thought, and more |
+| [Workflows](fundamentals/workflows/) | Patterns for AI-assisted work |
+| [Context Management](fundamentals/context-management/) | Optimizing what you feed the AI |
+| [Output Quality](fundamentals/output-quality/) | Getting consistently good results |
+| [Use Cases](fundamentals/use-cases/) | Domain patterns (coding, writing, analysis) |
+| [Safety & Ethics](fundamentals/safety-ethics/) | Responsible AI use |
+| [Evaluation](fundamentals/evaluation/) | Measuring AI performance |
+| [Advanced Concepts](fundamentals/advanced-concepts/) | Agentic AI, RAG, tool use |
+| [Practical Skills](fundamentals/practical-skills/) | Day-to-day effectiveness |
+
+### Platform-Specific
+| Platform | Unique Features to Explore |
+|----------|---------------------------|
+| [Claude](end-user/claude/) | Artifacts, Projects, Extended Thinking |
+| [Gemini](end-user/gemini/) | Search Grounding, Code Execution, Gems |
+
+---
+
+## 🎉 Have Fun!
+
+AI tools are genuinely fun to explore. This playground is designed for:
+
+- **Curiosity** — What happens if I try this?
+- **Experimentation** — Let's find out
+- **Discovery** — Oh, that's interesting!
+- **Mastery** — Now I can do this reliably
+
+Don't just use AI. **Understand it.**
+
+---
+
+## 📖 Quick Reference
+
+```
+ai-playground/
+├── fundamentals/        # 📚 Learn (vendor-agnostic skills)
+├── end-user/
+│   ├── claude/          # 🔬 Experiment with Claude
+│   └── gemini/          # 🔬 Experiment with Gemini
+├── comparisons/         # ⚔️ Test (head-to-head comparisons)
+├── library/             # 📖 Collect (your prompt library)
+├── projects/            # 🏗️ Build (hands-on projects)
+├── failures/            # 💥 Learn from mistakes
+├── cheatsheets/         # 📋 Reference (quick guides)
+└── api/                 # 💻 Code (SDK examples)
+```
+
+---
+
+*Now go experiment!* 🚀
