@@ -16,6 +16,7 @@ ai-toolkit/
       mcp-servers/        # MCP server configs
       settings/           # Settings examples (CLAUDE.md templates, etc.)
       skills/             # Skill definitions
+      subagents/          # Subagent definitions
     gemini/               # Gemini configs (future)
   docs/                   # Project documentation
     PRD.md                # Product requirements

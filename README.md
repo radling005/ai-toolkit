@@ -1,15 +1,37 @@
-# AI Playground
+# AI Toolkit
 
-A repository for experimenting with various AI services.
+Curated, proven AI configurations, commands, workflows, and code patterns for solo developers.
+
+## What's Here
+
+**Ready-to-use tooling** - everything in this repo has been tested and proven useful. No experiments, no half-baked ideas.
 
 ## Structure
 
-### `api/`
-Directory for programmatic experimentation, scripts, and SDK usage.
-- `gemini/`: Python scripts using Google Gemini API.
-- `claude/`: Python scripts using Anthropic Claude API.
+```
+ai-toolkit/
+  api/                    # Programmatic AI usage (SDKs, scripts)
+    claude/               # Anthropic Claude API patterns
+    gemini/               # Google Gemini API patterns
+  end-user/               # Power user configs (no coding required)
+    claude/               # Claude Code tooling
+      commands/           # Slash commands
+      hooks/              # Hook examples
+      mcp-servers/        # MCP server configs
+      settings/           # Settings examples
+      skills/             # Skill definitions
+      subagents/          # Subagent definitions
+    gemini/               # Gemini configs
+```
 
-### `end-user/`
-Directory for "power user" usage, prompt engineering, and UI-based experimentation.
-- `gemini/`: Prompts, screenshots, and logs from the Gemini web interface.
-- `claude/`: Prompts, screenshots, and logs from the Claude web interface.
+## Usage
+
+Browse the folders for what you need. Each section has its own README with specifics.
+
+**Highlights:**
+- `end-user/claude/commands/solo-dev-workflow/` - Workflow commands for solo dev sessions (`/start`, `/ship`, `/review`, etc.)
+- `end-user/claude/settings/` - Example CLAUDE.md and settings.json templates
+
+## Related
+
+- **ai-playground** - Experimental sandbox for trying things out (items graduate here when proven useful)
