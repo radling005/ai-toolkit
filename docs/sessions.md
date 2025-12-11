@@ -30,3 +30,29 @@ First real session on ai-toolkit after the repo split. Established the vision, q
 **Commits:** None yet (work in progress)
 
 ---
+
+## 2025-12-10 Session (2)
+
+**Focus:** Repo metadata and README update
+
+**Completed:**
+- Rewrote README.md for ai-toolkit (was still "AI Playground")
+- Updated GitHub repo description and topics (ai, automation, claude, developer-tools, workflow)
+- Added `subagents/` to structure diagrams in CLAUDE.md and README
+- Added `.claude/settings.local.json` to .gitignore
+
+**In Progress:**
+- None
+
+**Decisions Made:**
+- None
+
+**Ideas Captured:**
+- None
+
+**Notes:**
+Quick cleanup session to make the repo presentable. GitHub metadata now reflects the toolkit purpose.
+
+**Commits:** a3e25da, 2ac7642
+
+---
