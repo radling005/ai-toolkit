@@ -56,3 +56,29 @@ Quick cleanup session to make the repo presentable. GitHub metadata now reflects
 **Commits:** a3e25da, 2ac7642
 
 ---
+
+## 2025-12-22 Session
+
+**Focus:** Merge global Claude commands into toolkit
+
+**Completed:**
+- Ran /claude-global-assessor to compare global config vs toolkit
+- Updated solo-dev-workflow/start.md to include sessions.md reading
+- Created daily-workflow/ command set (setup, end-day, planner)
+- Created utilities/ command set (sync-docs, ai-readiness, make-background-runner, claude-ideas, claude-global-assessor)
+
+**In Progress:**
+- None
+
+**Decisions Made:**
+- Organized commands into three sets: solo-dev-workflow (project sessions), daily-workflow (cross-project routines), utilities (standalone tools)
+
+**Ideas Captured:**
+- None
+
+**Notes:**
+Toolkit now has 16 commands matching the global config. Structure is cleaner with separate directories for different use cases.
+
+**Commits:** dfc9a51
+
+---
