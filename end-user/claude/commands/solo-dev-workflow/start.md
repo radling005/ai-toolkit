@@ -32,12 +32,14 @@ Before showing anything to the user, you MUST read and internalize:
 4. **Read `docs/standards.md`** (if exists) - Know quality standards to uphold
 5. **Skim `docs/decisions.md`** (if exists) - Be aware of past architectural decisions
 6. **Skim `docs/backlog.md`** (if exists) - Know what's in the pipeline
+7. **Read `docs/sessions.md`** (if exists) - Review the last 20 session entries for recent work history
 
 Take a moment to synthesize this. You should now understand:
 - What this product is and who it's for
 - What the current priorities are
 - How code should be written in this project
 - What decisions have already been made
+- What was worked on in recent sessions (patterns, blockers, momentum)
 
 ## 3. Show Session Context
 
@@ -49,6 +51,10 @@ Purpose: [one-line from PRD]
 
 Current Focus:
 - [items from active.md, or "None set"]
+
+Recent Sessions: (last 3-5)
+- [date]: [focus/completed summary]
+- [note any in-progress items, blockers, or patterns worth continuing]
 
 Recent Backlog: (for context)
 - [top 3-5 items from backlog.md]
